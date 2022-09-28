@@ -1,0 +1,310 @@
+body {
+  font-weight: 400;
+}
+.fixed {
+  background: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-shadow: 0px 1px 10px #333333;
+  z-index: 5;
+}
+li {
+  list-style-type: none;
+}
+p {
+  font-size: 18px;
+}
+hr {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 3px;
+}
+h1,
+h2,
+h3,
+h4,
+.font-700 {
+  font-weight: 700;
+}
+.header-b {
+  background-color: #333333;
+  color: #fff;
+}
+.shadow-b-grey {
+  box-shadow: 0px 15px 15px rgba(185, 185, 185, 0.5);
+  margin: 0;
+  padding-bottom: 3px;
+}
+.shadow-t-grey {
+  box-shadow: 0 -5px 15px rgba(185, 185, 185, 0.5);
+  margin: 0;
+}
+.background-gas-img {
+  min-height: 450px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 100%;
+  background-image: url(/img/gas-pistol.jpeg);
+  background-size: 80%;
+}
+.footer-area {
+  background-color: #333333;
+  color: #fff;
+}
+.link {
+  color: #fff;
+}
+.link:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+.icon-social {
+  font-size: 25px;
+  color: #fff;
+}
+.icon-social:hover {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+.text-block-1 {
+  background-color: rgba(161, 161, 161, 0.3);
+  box-shadow: 5px 5px 10px rgba(185, 185, 185, 0.8);
+  padding: 50px;
+}
+.man-pic-1 {
+  width: 60%;
+  margin-left: 150px;
+  margin-top: 80px;
+}
+
+/* Топливо */
+.container-fuel {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.fuel-main {
+  width: auto;
+  height: 220px;
+  padding-left: 35px;
+  padding-top: 35px;
+  font-size: 26px;
+  line-height: 35px;
+  color: #fff;
+}
+.fuel-main:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #333333;
+}
+.fuel-num {
+  font-size: 50px;
+}
+.fuel-95 {
+  background-color: red;
+}
+.fuel-95G,
+.fuel-100G {
+  background-color: orangered;
+}
+.fuel-92 {
+  background-color: orange;
+}
+.fuel-dt {
+  background-color: #333333;
+}
+.fuel-kpg {
+  background-color: #267020;
+}
+.fuel-gas {
+  background-color: #1692e4;
+}
+.fuel-el {
+  background-color: #0bb90f;
+}
+
+.ya-maps-container {
+  display: flex;
+  justify-content: center;
+}
+.container-calculator {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.calculator {
+  height: 840px;
+  width: auto;
+  background-color: #333333;
+  color: #fff;
+  padding-left: 35px;
+  padding-top: 35px;
+  line-height: 35px;
+}
+
+.action-pic-scale {
+  overflow: hidden;
+}
+.action-pic {
+  transition: 0.5s; /* Время эффекта */
+  display: block;
+}
+.action-pic:hover {
+  transform: scale(1.15);
+}
+.action-azs-red,
+.action-azs-dark-red,
+.action-azs-grey,
+.action-azs-blue,
+.action-azs-purple,
+.action-azs-orange {
+  text-align: center;
+  padding: 20px;
+}
+.action-azs-grey {
+  background-color: #333333;
+  color: #fff;
+}
+.action-azs-red {
+  background-color: red;
+  color: #fff;
+}
+.action-azs-dark-red {
+  background-color: darkred;
+  color: #fff;
+}
+.action-azs-blue {
+  background-color: #1c355e;
+  color: #fff;
+}
+.action-azs-purple {
+  background-color: rgb(56, 19, 56);
+  color: #fff;
+}
+.action-azs-orange {
+  background-color: rgb(190, 101, 0);
+  color: #fff;
+}
+.page-404-h {
+  font-size: 360px;
+  color: #ff4d4d;
+}
+.page-404-p {
+  font-size: 40px;
+  font-weight: 600;
+}
+.btn-404 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ff4d4d;
+}
+
+/* Ресторан */
+.container-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flex-menu-1 {
+  position: relative;
+  margin: 25px;
+  height: 400px;
+  width: 400px;
+  border: 1px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px #b9b9b9;
+}
+.menu-picture {
+  display: block;
+  margin: auto;
+  width: 60%;
+}
+.menu-text {
+  margin: 5px;
+}
+.menu-price {
+  position: absolute;
+  bottom: 0;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+@media (max-width: 1440px) {
+  .background-gas-img {
+    min-height: 360px;
+  }
+  .man-pic-1 {
+    margin-top: 120px;
+  }
+}
+@media (max-width: 1140px) {
+  .background-gas-img {
+    min-height: 280px;
+  }
+  .man-pic-1 {
+    margin-left: 100px;
+  }
+}
+@media (max-width: 960px) {
+  .background-gas-img {
+    min-height: 220px;
+  }
+  .page-404-h {
+    font-size: 240px;
+  }
+  .page-404-p {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .man-pic-1 {
+    margin-left: 75px;
+  }
+}
+@media (max-width: 768px) {
+  .text-block-1 {
+    box-shadow: 0px 5px 10px rgba(185, 185, 185, 0.8);
+    margin-top: 25px;
+  }
+  .man-pic-1 {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .background-gas-img {
+    min-height: 180px;
+  }
+  .page-404-h {
+    font-size: 180px;
+  }
+  .page-404-p {
+    font-size: 26px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 540px) {
+  .background-gas-img {
+    min-height: 100px;
+  }
+  .page-404-h {
+    font-size: 140px;
+  }
+  .page-404-p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 340px) {
+  .page-404-h {
+    font-size: 40px;
+  }
+  .page-404-p {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+@media (max-width: 720px) {
+  .ya-maps {
+    height: 420px;
+  }
+}
