@@ -1,6 +1,6 @@
     <!-- Content start -->
     <main>
-      <div class="background-gas-img"></div>
+      <div class="background-main-img background-gas-img"></div>
       <div class="container-fluid text-center mb-5 shadow-b-grey">
         <h1 style="color: #333">Добро пожаловать на лучшую АЗС!</h1>
       </div>
