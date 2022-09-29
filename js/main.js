@@ -39,7 +39,26 @@ function calc() {
 
 // Функция добавления цены по клику на карточку
 function calcVal(price_fuel) {
-  if (0 == 0) {
-    price.value = price_fuel;
-  }
+  price.value = price_fuel;
 }
+
+// Яндекс карты
+let mapTitle = document.createElement("div");
+
+mapTitle.className = "mapTitle";
+mapTitle.textContent = "Для активации карты нажмите по ней";
+wrapMap.appendChild(mapTitle);
+wrapMap.onclick = function () {
+  this.children[0].removeAttribute("style");
+  mapTitle.parentElement.removeChild(mapTitle);
+};
+
+wrapMap.onmousemove = function (event) {
+  mapTitle.style.display = "block";
+  if (event.offsetY > 10) mapTitle.style.top = event.offsetY + 20 + "px";
+  if (event.offsetX > 10) mapTitle.style.left = event.offsetX + 20 + "px";
+};
+
+wrapMap.onmouseleave = function () {
+  mapTitle.style.display = "none";
+};

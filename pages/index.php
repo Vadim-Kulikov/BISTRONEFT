@@ -134,13 +134,14 @@
       >
         <i class="fa-solid fa-location-dot"></i> Карта АЗС
       </h2>
-      <div class="ya-maps-container">
+
+      <div id="wrapMap">
         <iframe
+          style="pointer-events: none"
           src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa8a17a4f7ae4e3e5c8b7bee111a67dff09a1781ad4a9f855bc04132b309d7b45&amp;source=constructor"
           width="100%"
-          height="620"
+          height="650"
           frameborder="0"
-          class="ya-maps"
         ></iframe>
       </div>
     </main>

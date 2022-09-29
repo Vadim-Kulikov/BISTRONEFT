@@ -134,10 +134,31 @@ h4,
   background-color: #0bb90f;
 }
 
-.ya-maps-container {
-  display: flex;
-  justify-content: center;
+/* Яндекс карты */
+#wrapMap {
+  position: relative;
+  cursor: help;
+  overflow: hidden;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
 }
+.mapTitle {
+  position: absolute;
+  z-index: 1000;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 5px;
+  display: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-image: initial;
+}
+
+/* Калькулятор */
 .container-calculator {
   margin-right: 10%;
   margin-left: 10%;
@@ -152,6 +173,7 @@ h4,
   line-height: 35px;
 }
 
+/* Акции */
 .action-pic-scale {
   overflow: hidden;
 }
@@ -195,6 +217,8 @@ h4,
   background-color: rgb(190, 101, 0);
   color: #fff;
 }
+
+/* 404 error */
 .page-404-h {
   font-size: 360px;
   color: #ff4d4d;
@@ -241,6 +265,7 @@ h4,
   font-size: 26px;
 }
 
+/* Адаптив */
 @media (max-width: 1440px) {
   .background-gas-img {
     min-height: 360px;
@@ -354,10 +379,5 @@ h4,
   .page-404-p {
     font-size: 16px;
     font-weight: 600;
-  }
-}
-@media (max-width: 720px) {
-  .ya-maps {
-    height: 420px;
   }
 }
