@@ -57,7 +57,7 @@ h4,
 .background-restaurant-img {
   background-image: url(/img/restaurant.jpg);
   background-size: 100%;
-  min-height: 480px;
+  min-height: 540px;
 }
 .footer-area {
   background-color: #333333;
