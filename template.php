@@ -10,6 +10,12 @@
       src="https://kit.fontawesome.com/237306d976.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="/img/favicon.png" />
     <title>Быстронефть</title>
   </head>
@@ -34,7 +40,7 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
           <ul
             class="navbar-nav mr-auto my-2 my-lg-0 navbar-nav-scroll"
-            style="max-height: 100px"
+            style="max-height: 150px"
           >
             <li class="nav-item">
               <a class="nav-link" href="/">Главная</a>
@@ -94,7 +100,9 @@
       </nav>
       <div class="container-fluid font-700 header-b">
         <div class="row">
-          <div class="col-md-6 text-center">Выбрать город</div>
+          <div class="col-md-6 text-center">
+            <a href="#" class="link">Выбрать город</a>
+          </div>
           <div class="col-md-6 text-center">
             <a href="tel:+755555500" class="link">+7 (555) 555-00-00</a>
           </div>
@@ -155,7 +163,7 @@
                 <li>
                   <p>
                     Email:
-                    <a href="" class="link">bistroneft@mail.ru</a>
+                    <a href="mailto:bistroneft@mail.ru" class="link">bistroneft@mail.ru</a>
                   </p>
                 </li>
                 <li>
